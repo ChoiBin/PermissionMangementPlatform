@@ -2,7 +2,378 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718f8139-6bdb-4a9d-b106-ead7574ab92c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hashchoi/pmp/common/exception/CommonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/AttendRecordEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/ItemTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysDeptEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysDictEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysPostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysRoleDeptEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysUserPostEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/AttendRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/ItemTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysDictDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysPostDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserPostDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/AttendRecordDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/ItemTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysDeptDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysDictDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysPostDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysRoleDeptDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysUserPostDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/mappers/SysUserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/ShiroUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/index1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/img/LinkDebug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/img/Starry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/attend/attendRecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/item/itemType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/job/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/oss/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/dept.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/modules/sys/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/js/navtab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/ajaxupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/fastclick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/vue-validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/libs/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/grid.locale-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/icheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/line/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/icheck/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/laydate/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/laydate/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/dest/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/dest/layui.mod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/lib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/modules/icheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/layui/modules/pjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/img/folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.bootstrap3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/jquery.treegrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/treegrid/tree.table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/fa.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/awesomeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/metroStyle/metroStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/statics/plugins/ztree/jquery.ztree.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/templates/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,36 +394,42 @@
     <session id="-1482431202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="java" value="9" />
+          <entry key="class" value="6" />
+          <entry key="css" value="1" />
+          <entry key="html" value="6" />
+          <entry key="java" value="42" />
           <entry key="properties" value="8" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="16" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="CLASS" value="6" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="42" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="8" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="16" />
           <entry key="html" value="73" />
-          <entry key="java" value="1092" />
+          <entry key="java" value="4048" />
           <entry key="properties" value="44" />
           <entry key="txt" value="24" />
           <entry key="xml" value="47" />
@@ -61,7 +438,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="73" />
-          <entry key="JAVA" value="1092" />
+          <entry key="JAVA" value="4048" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="44" />
           <entry key="VTL" value="16" />
@@ -72,11 +449,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+              <folding>
+                <element signature="e#2511#2517#0" expanded="true" />
+                <element signature="e#2517#2523#0" expanded="true" />
+                <element signature="e#2523#2529#0" expanded="true" />
+                <element signature="e#2529#2535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/KaptchaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-139">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysPageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="431">
-              <caret line="146" column="27" lean-forward="true" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/UserRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2302">
+              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1492">
+              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,10 +551,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>debug</find>
+      <find>kaptcha</find>
+      <find>lo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>hashchoi</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,6 +586,32 @@
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/templates/pageOne.html" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysRoleEntity.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleDeptDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/AttendRecordDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/ItemTypeDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysDeptDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysDictDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysLogDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysMenuDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysPostDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleMenuDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserPostDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserRoleDao.java" />
+        <option value="$PROJECT_DIR$/model/src/main/resources/mappers/AttendRecordDao.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/AbstractController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysUserEntity.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/hashchoi/pmp/common/exception/CommonException.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/KaptchaConfig.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/ShiroUtil.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/UserRealm.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysLoginController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysPageController.java" />
       </list>
     </option>
   </component>
@@ -136,23 +637,36 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="157" />
     <option name="y" value="61" />
     <option name="width" value="1400" />
     <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +715,29 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PermissionMangementPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionMangementPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PermissionMangementPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionMangementPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,15 +747,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="syslo&#9;PSI&#9;JAVA://com.hashchoi.pmp.server.controller.SysLoginController&#10;index&#9;FILE&#9;file://E:/idea_workplace/PermissionMangementPlatform/server/src/main/resources/templates/index.html&#10;lo&#9;FILE&#9;file://E:/idea_workplace/PermissionMangementPlatform/server/src/main/resources/templates/login.html&#10;shiro&#9;FILE&#9;file://E:/idea_workplace/PermissionMangementPlatform/server/src/main/java/com/hashchoi/pmp/server/shiro/ShiroUtil.java&#10;login&#9;FILE&#9;file://E:/idea_workplace/PermissionMangementPlatform/server/src/main/resources/templates/login.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568346507725" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568364980740" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -227,7 +764,11 @@
       <recent name="com.hashchoi.pmp.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea_workplace\PermissionMangementPlatform\server\src\main\resources" />
+      <recent name="E:\idea_workplace\PermissionMangementPlatform\common\src\main\java\com\hashchoi\pmp\common\exception" />
+      <recent name="E:\idea_workplace\PermissionMangementPlatform\server\src\main\java\com\hashchoi\pmp\server\shiro" />
+      <recent name="E:\idea_workplace\PermissionMangementPlatform\server\src\main\resources\templates" />
+      <recent name="E:\idea_workplace\PermissionMangementPlatform\server\src\main\resources\statics" />
+      <recent name="E:\idea_workplace\PermissionMangementPlatform\model\src\main\resources\mappers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,13 +783,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="Application.ShiroUtil">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hashchoi.pmp.server.MainApplication" />
       <module name="server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hashchoi.pmp.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashchoi.pmp.server.shiro.ShiroUtil" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashchoi.pmp.server.shiro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,10 +820,12 @@
     <list>
       <item itemvalue="Spring Boot.MainApplication" />
       <item itemvalue="Application.MainApplication" />
+      <item itemvalue="Application.ShiroUtil" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="Application.ShiroUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -285,19 +841,56 @@
       <updated>1568286763172</updated>
       <workItem from="1568286780993" duration="2340000" />
       <workItem from="1568289252002" duration="4763000" />
-      <workItem from="1568344434678" duration="1087000" />
+      <workItem from="1568344434678" duration="4829000" />
+      <workItem from="1568350400790" duration="4750000" />
+      <workItem from="1568355788773" duration="6898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8190000" />
+    <option name="totallyTimeSpent" value="23580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="157" y="61" width="1400" height="995" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65125" visible="true" weight="0.37254903" />
+      <window_info id="Structure" order="1" sideWeight="0.34875" side_tool="true" visible="true" weight="0.37254903" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3871345" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6526316" visible="true" weight="0.25751072" />
+      <window_info id="Structure" order="1" sideWeight="0.34736842" side_tool="true" visible="true" weight="0.25751072" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -329,7 +922,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -338,20 +931,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -380,16 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,9 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,10 +1021,291 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysRoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleDeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/resources/mappers/ItemTypeDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/AttendRecordDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/ItemTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysDeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysDictDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysLogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysPostDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysRoleMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserPostDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/mapper/SysUserRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/AttendRecordEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/resources/mappers/AttendRecordDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/statics/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/hashchoi/pmp/model/entity/SysUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/hashchoi/pmp/common/exception/CommonException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/KaptchaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <folding>
+            <element signature="e#2511#2517#0" expanded="true" />
+            <element signature="e#2517#2523#0" expanded="true" />
+            <element signature="e#2523#2529#0" expanded="true" />
+            <element signature="e#2529#2535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/SecurityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1492">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2302">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/ShiroUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/controller/SysPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
-          <caret line="146" column="27" lean-forward="true" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hashchoi/pmp/server/shiro/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
