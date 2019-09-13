@@ -164,7 +164,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="157" />
     <option name="y" value="61" />
     <option name="width" value="1400" />
@@ -288,8 +288,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainApplication" />
       <item itemvalue="Spring Boot.MainApplication" />
+      <item itemvalue="Application.MainApplication" />
     </list>
     <recent_temporary>
       <list>
