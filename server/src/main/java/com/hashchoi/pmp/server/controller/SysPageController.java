@@ -2,6 +2,7 @@ package com.hashchoi.pmp.server.controller;
 
 import org.apache.shiro.SecurityUtils;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -11,6 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class SysPageController {
 
+    @RequestMapping("modules/{module}/{page}.html")
+    public String page(@PathVariable String module,@PathVariable String page){
+        return "modules/" + module + "/" + page;
+    }
 
     @RequestMapping(value = {"index.html","/"})
     public String index(){

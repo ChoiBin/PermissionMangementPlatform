@@ -22,6 +22,7 @@ public enum StatusCode {
 
     PasswordCanNotBlank(1000,"密码不能为空!"),
     OldPasswordNotMatch(1001,"原密码不正确!"),
+    OldpasswordEqualNewPassword(1006,"原密码与新密码相同，请重新输入!"),
     UpdatePasswordFail(1002,"修改密码失败~请联系管理员!"),
 
     SysUserCanNotBeDelete(1003,"超级系统管理员不能被删除!"),
